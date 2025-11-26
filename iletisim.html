@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="iletisim.css" />
+  <title>İletişim – Tour Guide</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo"><i class="fa-brands fa-sticker-mule"></i> <span>Tour</span> Guide</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="#">Turlar</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+       
+      </ul>
+    </nav>
+  </header>
+
+  <!-- İletişim Bölümü -->
+  <section id="contact" class="contact-section">
+    <h2>İletişim</h2>
+    <div class="contact-container">
+
+      <!-- İletişim Bilgileri ve Form -->
+      <div class="contact-info">
+        <p><strong>Adres:</strong>kartal Mah. İstanbul, Türkiye</p>
+        <p><strong>Telefon:</strong> +90 533 233 33 33</p>
+        <p><strong>Email:</strong> turrehberi@gmail.com</p>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Adınız" required />
+          <input type="email" id="email" placeholder="Email Adresiniz" required />
+          <textarea id="message" placeholder="Mesajınız" rows="5" required></textarea>
+          <button type="submit" class="btn">Gönder</button>
+        </form>
+      </div>
+
+      <!-- Harita -->
+      <div id="map" class="map"></div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="social-icons">
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a href="https://x.com/"><i class="fab fa-x fa-2x"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <p class="footer-copy">© 2025 Tour Guide. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="iletisim.js"></script>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=BURAYA_API_KEYİNİ_YAZ&callback=initMap&v=weekly"
+></script>
+
+</body>
+</html>
