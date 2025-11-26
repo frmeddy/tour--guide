@@ -24,6 +24,6 @@ Site kullanıcılarına:
 ## Kurulum
 1. Projeyi klonlayın veya indirin:
    ```bash
-   git clone https://github.com/frmeddy/tour--guide.git
+ https://github.com/frmeddy/tour--guide.git
 
  
